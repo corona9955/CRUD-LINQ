@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LINQTest" Class="DataModelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=LINQTest;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="CRUD_LINQ.Properties.Settings" SettingsPropertyName="LINQTestConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="Users">
+      <Column Name="idUser" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Firtname" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="lastname" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="INE" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
